@@ -1,0 +1,12 @@
+HƯỚNG DẪN DỮ LIỆU TỔNG HỢP AGRIBANK
+
+Nguồn: 8 văn bản JSON; HTML 9408 cặp câu hỏi–đáp án; Excel 171 dòng ({'Thang 7.2026.xlsx': 70, 'NV T8.xlsx': 101}).
+Excel: 101 câu có phương án/đáp án; gộp 70 dòng trùng; lỗi 0.
+HTML: 9060 cặp khác nhau sau gộp 348 bản lặp; 26 nhóm câu hỏi có nhiều đáp án khác nhau (theo chuẩn hóa khoảng trắng). Không tự sửa đáp án.
+
+1. Upload index.html, chuyen-word-json.html và thư mục data vào gốc repository GitHub Pages.
+2. Nếu chỉ cập nhật dữ liệu trên V3 cũ: thay manifest.json và kho-van-ban.json trong data; V3 cũ truy xuất HTML cũ dưới dạng đoạn tham khảo. Dùng index.html mới đi kèm để tra cứu đáp án HTML cũ trực tiếp.
+3. Dữ liệu đã gộp 1 JSON; manifest tự khai báo đường dẫn và phiên bản.
+4. Kho Excel có phương án đầy đủ được ưu tiên, bộ HTML thiếu phương án gốc chỉ là tham khảo, không suy ra xác suất đúng.
+5. Các tài liệu dự thảo/so sánh/giải trình được đánh dấu theo tên gốc, không xác định hiệu lực.
+6. Chỉ upload dữ liệu được phép công khai; GitHub Pages có thể cho người khác tải toàn bộ kho. Nếu tài liệu nội bộ, dùng lưu trữ cục bộ hoặc hệ thống được phê duyệt.
